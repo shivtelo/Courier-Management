@@ -1,0 +1,30 @@
+
+
+.cl { clear: both}
+.fl { float: left}
+.fr { float: right}
+.form_cont { width: 50%; background: #fff none repeat scroll 0 0; padding: 20px 15px; text-align: left; border-radius:5px; border-top: 2px solid #ec005f; float: left; }
+.row1 { width: 98%; margin: 6px 0; float: left; }
+.row2 { width: 48%; margin: 6px 0; }
+.row1 span, .row2 span { width: 100%; float:left; }
+
+.form_cont form input[type="submit"]:hover{ color: #EC005F; border: 1px solid rgba(236, 0, 95, 0.39); }
+.form_cont form input[type="text"]:hover, .form_cont form input[type="password"]:hover, .form_cont form textarea:hover, .form_cont form select:hover { border: 1px solid rgba(236, 0, 95, 0.39); }
+.form_cont form input[type="text"], .form_cont form input[type="password"], .form_cont form select, .form_cont form textarea { border: 1px solid rgba(192, 192, 192, 0.61); border-radius: 4px; box-shadow: 0 0 1px rgba(0, 0, 0, 0.05); color: #333333; display: block; font-family: "Open Sans",sans-serif; outline: medium none; overflow: hidden; padding: 4px; transition: border-color 0.3s ease 0s; width: 100%; }
+
+.form_cont form input[type="submit"] { background: #fff none repeat scroll 0 0; border: 1px solid rgba(192, 192, 192, 0.61); border-radius: 4px; color: #5a5a5a; cursor: pointer; display: block; font-family: "Open Sans",sans-serif; outline: medium none; padding: 0.3em 1.5em; text-decoration: none; text-shadow: none; transition: all 0.3s ease-out 0s; width: 100%; }
+.ranvirh3 { margin: 0 0 5px 0; color: #ec005f; text-transform: uppercase;}
+/*.form_cont label.error { font-size: 10px; color: #FF0000; }*/
+.form_cont .error {  border: 1px solid #FF0000 !important;}
+label.error {display: none !important;}
+
+div.module table { border-bottom: 1px solid #d9d9d9; border-left: 1px solid #d9d9d9; margin: 0 0 10px; width: 100%;}
+table.tablesorter { text-align: left; width: 100%; }
+table, caption, tbody, tfoot, thead, tr, th, td { background: transparent none repeat scroll 0 0; border: 0 none; margin: 0; outline: 0 none; padding: 0; vertical-align: baseline; font-size: 13px; }
+table.tablesorter tbody td { background-color: #fff; color: #3d3d3d; padding: 4px; vertical-align: top; }
+table.tablesorter thead tr th { background-color: #f1f5fa; padding: 4px 1px; }
+table.tablesorter tbody tr.odd td { background-color: #f1f5fa; }
+.tablesorter_ranvir tr td { padding: 7px !important;}
+a.news-btn { padding: 1px 5px; border-radius: 4px; font-size: 12px;}
+
+#post_load label.error { color: #FF0000 !important; display: inline-block !important; font-weight: normal !important; }

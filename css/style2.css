@@ -1,0 +1,122 @@
+a:link {
+    text-decoration: none;
+}
+#container
+{
+	width: 500px ;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+	padding: 5px;
+	border-radius: 10px ;
+	border: 0px solid ; 
+}
+#abc
+{
+	width: 500px ;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+	padding: 5px;
+	border-radius: 10px ;
+	border: 0px solid ; 
+}
+.avatar
+{
+	width: 150px;
+	text-align: center;
+	border-radius: 50%;
+}
+.myform
+{
+	width: 450px;
+	margin: 0 auto;
+}
+.ipvalues
+{
+	width: 430px;
+	margin: 0 auto;
+	padding: 5px;
+}
+.ipvalues2
+{
+	width: 440px;
+	margin: 0 auto;
+	padding: 5px;
+}
+#login-button
+{
+	margin-top: 10px;
+	font-size: 18px;
+	background-color: #ff6666;
+	border-radius: 4px ;
+	width: 100%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+}
+#register-button
+{
+
+	background-color: #66ff66;
+	margin-top: 10px;
+	font-size: 18px;
+	border-radius: 4px ;
+	width: 100%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+	margin-bottom: 10px;
+}
+
+#signup-button
+{
+
+	background-color: #66ff66;
+	margin-top: 10px;
+	font-size: 18px;
+	border-radius: 4px ;
+	width: 100%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+	margin-bottom: 10px;
+}
+
+#logout-button
+{
+
+	background-color: #6666ff;
+	margin-top: 10px;
+	font-size: 18px;
+	border-radius: 4px ;
+	width: 100%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+	margin-bottom: 20px;
+}
+#back-button
+{
+
+	background-color: #e74c3c;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius: 4px ;
+	width: 30%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+	margin-bottom: 10px;
+}
+#chk-button
+{
+
+	background-color: #6666ff;
+	margin-top: 10px;
+	font-size: 15px;
+	border-radius: 4px ;
+	width: 20%;
+	color: #ffffff;
+	border: 0px solid ; 
+	padding: 5px ;
+	margin-bottom: 10px;
+}
