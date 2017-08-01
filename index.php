@@ -99,6 +99,9 @@ $(function() {
                                     
                                     //echo $username;
                                     $password=$_POST['password'];
+					$conc="shiv";
+					$mpassword=$conc.$password;
+					$password=$mpassword;
                                     //preg_replace('/[^A-Za-z0-9\-]/', '', $password);
                                     $user_type=$_POST['user_type'];
                                     if($user_type=="employee")
