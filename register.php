@@ -168,6 +168,7 @@ $(function() {
 											//echo $user_type ;
 											if($user_type=="employee")
 												{
+													
 													if($password==$cpassword)
 													{
 														$query="select * from empuserinfo where username='$username'";
@@ -179,6 +180,9 @@ $(function() {
 														}
 														else
 														{
+																				$conc="shiv";
+																				$mpassword=$conc.$password;
+																				$password=$mpassword;
 															//$query="insert into empuserinfo values('$username','$password',0,$pname,$phno,$eml)";
 															$query="insert into empuserinfo values('$username','$password',0,'$pname','$phno','$eml','$addr','$city')";
 														$query_run=mysqli_query($con,$query);
