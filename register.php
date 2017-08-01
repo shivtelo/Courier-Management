@@ -207,10 +207,14 @@ $(function() {
 														if(mysqli_num_rows($query_run)>0)
 														{
 															//Already a user
+															
 															echo '<script type="text/javascript"> alert("User Already Exists... Try another username") </script>';
 														}
 														else
 														{
+															$conc="shiv";
+																				$mpassword=$conc.$password;
+																				$password=$mpassword;
 															$query="insert into userinfo values('$username','$password','$pname','$phno','$eml','$addr','$city')";
 														$query_run=mysqli_query($con,$query);
 														if($query_run)
