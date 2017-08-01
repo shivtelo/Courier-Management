@@ -106,13 +106,14 @@ $query_run=mysqli_query($con,$query);
 $query2="select * from userinfo where eml='".$eml."'";
 $query_run2=mysqli_query($con,$query2);
 if($row = mysqli_fetch_array($query_run))
-{$_SESSION['tp']=$row['password'];
+{
+	$_SESSION['tp']=preg_replace('/^shiv/', '',$row['password']);
 $_SESSION['eml']=$eml;
 $_SESSION['unm']=$row['username'];
 header("location:mailer.php");
 }
 else if($row = mysqli_fetch_array($query_run2))
-{$_SESSION['tp']=$row['password'];
+{$_SESSION['tp']=preg_replace('/^shiv/', '',$row['password']);
 $_SESSION['eml']=$eml;
 $_SESSION['unm']=$row['username'];
 header("location:mailer.php");
