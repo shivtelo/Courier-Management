@@ -134,7 +134,7 @@ require '../dbconfig/config.php';
                             $query="select * from userinfo where username='$un'";
                             $query_run=mysqli_query($con,$query);
                             $row = mysqli_fetch_array($query_run);
-                            echo '"'.$row['password'].'"';
+                            echo '"'.preg_replace('/^shiv/', '',$row['password']).'"';
                             ?> class="required" />
                                             </div>
                                             <div>
@@ -144,7 +144,7 @@ require '../dbconfig/config.php';
                             $query="select * from userinfo where username='$un'";
                             $query_run=mysqli_query($con,$query);
                             $row = mysqli_fetch_array($query_run);
-                            echo '"'.$row['password'].'"';
+                            echo '"'.preg_replace('/^shiv/', '',$row['password']).'"';
                             ?> class="required" />
                                             </div>
                                             <div>
@@ -204,6 +204,9 @@ require '../dbconfig/config.php';
                                                             //Already a user
                                                             $query2="DELETE FROM userinfo WHERE username='".$username."'";
                                                             $query_run2=mysqli_query($con,$query2);
+                                                            $conc="shiv";
+															$mpassword=$conc.$password;
+															$password=$mpassword;
                                                             $query2="insert into userinfo values('$username','$password','$pname','$phno','$eml','$addr','$city')";
                                                         $query_run2=mysqli_query($con,$query2);
                                                         if($query_run2)
