@@ -1,4 +1,3 @@
 # Courier-Management
-A Simple Project using PHP/MySQL
-Install Xampp Server.
-Use editor of your choice (Sublime).
+A Web Application for courier service organisation to manage its business(including employees and customers)
+Languages/Tools: PHP and MySQL for backend, Bootstrap JQuery for frontend.
