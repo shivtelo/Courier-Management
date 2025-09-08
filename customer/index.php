@@ -75,7 +75,9 @@ require '../dbconfig/config.php';
                             $query="select * from userinfo where username='$un'";
                             $query_run=mysqli_query($con,$query);
                             $row = mysqli_fetch_array($query_run);
-                            echo $row['pname'];
+                            if (is_array($un) && isset($un['username'])) {
+                                echo $array['username'];
+                            }
                             ?></h1>
             </div>
             <div class="breadcrumbs-right">
